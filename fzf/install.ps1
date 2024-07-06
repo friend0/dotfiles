@@ -1,0 +1,1 @@
+.config/fzf/install.ps1

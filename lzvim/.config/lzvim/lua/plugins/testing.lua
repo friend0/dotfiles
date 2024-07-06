@@ -1,0 +1,23 @@
+return {
+  -- {
+  --   "nvim-neotest/neotest",
+  --   dependencies = {
+  --     "nvim-neotest/nvim-nio",
+  --     "nvim-lua/plenary.nvim",
+  --     "nvim-neotest/neotest-python",
+  --     "nvim-neotest/neotest-go",
+  --   },
+  --   opts = function(_, opts)
+  --     table.insert(
+  --       opts.adapters,
+  --       require("neotest-python")({
+  --         dap = { justMyCode = false }, -- Optional configuration for dap
+  --         runner = "pytest", -- Specify the test runner, e.g., 'pytest'
+  --       }),
+  --       require("neotest-go")({
+  --         args = { "-count=1", "-timeout=60s" }, -- Optional configuration for Go test arguments
+  --       })
+  --     )
+  --   end,
+  -- },
+}

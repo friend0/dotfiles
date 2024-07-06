@@ -130,6 +130,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias nv=lvim
-alias lazyvim='NVIM_APPNAME=lzvim nvim' # LazyVim
-alias lunarvim='NVIM_APPNAME=lvim' # LunarVim
+alias nvim='NVIM_APPNAME=lzvim nvim' # LazyVim
